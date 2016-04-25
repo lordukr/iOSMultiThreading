@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AZStudent.h"
+#import "AZStudentNSOPeration.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,59 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /*
+     AZStudent* student1 = [[AZStudent alloc] init];
+     student1.name = @"student1";
+     AZStudent* student2 = [[AZStudent alloc] init];
+     student2.name = @"student2";
+     AZStudent* student3 = [[AZStudent alloc] init];
+     student3.name = @"student3";
+     AZStudent* student4 = [[AZStudent alloc] init];
+     student4.name = @"student4";
+     
+     NSInteger number = 405;
+     NSInteger range = 20000000;
+     
+     void(^myBlock)(NSString*) = ^(NSString* text) {
+     NSLog(@"%@", text);
+     
+     };
+     
+     dispatch_async([AZStudent getQueue], ^{
+     [student1 guessAnswer:number toRange:range andBlock:myBlock];
+     });
+     dispatch_async([AZStudent getQueue], ^{
+     [student2 guessAnswer:number toRange:range andBlock:myBlock];
+     });
+     dispatch_async([AZStudent getQueue], ^{
+     [student3 guessAnswer:number toRange:range andBlock:myBlock];
+     });
+     dispatch_async([AZStudent getQueue], ^{
+     [student4 guessAnswer:number toRange:range andBlock:myBlock];
+     });
+     */
+    AZStudentNSOPeration* student1 = [[AZStudentNSOPeration alloc] init];
+    student1.name = @"student1";
+    AZStudentNSOPeration* student2 = [[AZStudentNSOPeration alloc] init];
+    student2.name = @"student2";
+    AZStudentNSOPeration* student3 = [[AZStudentNSOPeration alloc] init];
+    student3.name = @"student3";
+    AZStudentNSOPeration* student4 = [[AZStudentNSOPeration alloc] init];
+    student4.name = @"student4";
+    
+    NSInteger number = 405;
+    NSInteger range = 20000000;
+    
+    void(^myBlock)(NSString*) = ^(NSString* text) {
+        NSLog(@"%@", text);
+        
+    };
+    
+    [student1 guessAnswer:number toRange:range andBlock:myBlock];
+    [student2 guessAnswer:number toRange:range andBlock:myBlock];
+    [student3 guessAnswer:number toRange:range andBlock:myBlock];
+    [student4 guessAnswer:number toRange:range andBlock:myBlock];
+    
     return YES;
 }
 

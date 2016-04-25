@@ -13,6 +13,8 @@
 		1FA7101B1C879A2D00EFF0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA710191C879A2D00EFF0F0 /* Main.storyboard */; };
 		1FA7101D1C879A2D00EFF0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7101C1C879A2D00EFF0F0 /* Assets.xcassets */; };
 		1FA710201C879A2D00EFF0F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7101E1C879A2D00EFF0F0 /* LaunchScreen.storyboard */; };
+		1FA710291C88714100EFF0F0 /* AZStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA710281C88714100EFF0F0 /* AZStudent.m */; };
+		1FA7102C1C88D2DE00EFF0F0 /* AZStudentNSOPeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7102B1C88D2DE00EFF0F0 /* AZStudentNSOPeration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1FA7101C1C879A2D00EFF0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA7101F1C879A2D00EFF0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA710211C879A2D00EFF0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA710271C88714100EFF0F0 /* AZStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZStudent.h; sourceTree = "<group>"; };
+		1FA710281C88714100EFF0F0 /* AZStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZStudent.m; sourceTree = "<group>"; };
+		1FA7102A1C88D2DE00EFF0F0 /* AZStudentNSOPeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZStudentNSOPeration.h; sourceTree = "<group>"; };
+		1FA7102B1C88D2DE00EFF0F0 /* AZStudentNSOPeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZStudentNSOPeration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				1FA7101E1C879A2D00EFF0F0 /* LaunchScreen.storyboard */,
 				1FA710211C879A2D00EFF0F0 /* Info.plist */,
 				1FA710101C879A2D00EFF0F0 /* Supporting Files */,
+				1FA710271C88714100EFF0F0 /* AZStudent.h */,
+				1FA710281C88714100EFF0F0 /* AZStudent.m */,
+				1FA7102A1C88D2DE00EFF0F0 /* AZStudentNSOPeration.h */,
+				1FA7102B1C88D2DE00EFF0F0 /* AZStudentNSOPeration.m */,
 			);
 			path = Lesson13MultiThreadingHome;
 			sourceTree = "<group>";
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA710291C88714100EFF0F0 /* AZStudent.m in Sources */,
 				1FA710181C879A2D00EFF0F0 /* ViewController.m in Sources */,
 				1FA710151C879A2D00EFF0F0 /* AppDelegate.m in Sources */,
 				1FA710121C879A2D00EFF0F0 /* main.m in Sources */,
+				1FA7102C1C88D2DE00EFF0F0 /* AZStudentNSOPeration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
